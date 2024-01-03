@@ -5,7 +5,7 @@ import java.util.List;
 
 public class LinkedListCreator {
     public LinkedList<Integer> createLinkedList(List<Integer> sourceList) {
-        var linkedList = new LinkedList<Integer>();
+        LinkedList<Integer> linkedList = new LinkedList<>();
         for (var number : sourceList) {
             if (number % 2 == 1) {
                 linkedList.addFirst(number);
